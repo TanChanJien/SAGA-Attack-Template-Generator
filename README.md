@@ -15,7 +15,6 @@ This project streamlines the template creation process by using a Large Language
 ## Workflow: Human-in-the-Loop
 This system combines machine efficiency with expert oversight. The analyst performs the attack and provides the final validation, while the tool handles the intermediate data processing.
 
-*(You can insert the workflow diagram here)*
 
 ## Getting Started
 The entire workflow is contained within a Google Colab notebook.
@@ -29,8 +28,3 @@ The entire workflow is contained within a Google Colab notebook.
 
 ## Contributing
 Contributions to this tool are welcome! If you have suggestions for improving the prompts, the processing logic, or the workflow, please feel free to open an issue or submit a pull request.
-
-## Acknowledgements
-This work is built upon the concepts and framework introduced in the original SAGA paper. For more details on the SAGA framework, please refer to:
-
-* Yi-Ting Huang, et al. **SAGA: Synthetic Audit Log Generation for APT Campaigns**. arXiv:2411.13138v1, Nov 2024.
