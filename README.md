@@ -1,6 +1,6 @@
 # SAGA Attack Template Generator
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://your-colab-link-here)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://your-colab-link-here](https://colab.research.google.com/drive/1VqbcwkTl63KBENlrkie8QyaCDhSyWWpc))
 
 > **A semi-automated system that accelerates the creation of SAGA attack pattern templates from raw Procmon logs. This tool uses a Large Language Model (LLM) to help expand the SAGA framework's coverage of MITRE ATT&CK® tactics.**
 
