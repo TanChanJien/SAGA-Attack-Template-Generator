@@ -1,6 +1,6 @@
 # SAGA Attack Template Generation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VooWmsH5WA3y48S7N6PWRLX4GIyjQ8bb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VqbcwkTl63KBENlrkie8QyaCDhSyWWpc)
 
 This project automates the generation of SAGA (Security Attack Graph and Analysis) attack templates from raw Procmon logs. It uses a Large Language Model (LLM) to identify and filter malicious system events, extracts behavioral patterns, and abstracts them into a structured, reusable JSON format.
 
