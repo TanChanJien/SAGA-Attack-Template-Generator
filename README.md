@@ -38,7 +38,7 @@ This tool transforms raw logs into a structured template through a multi-stage p
 
 ## Example Output
 Here is a simplified example of what the tool produces at different stages.
-A. **Filtered Events (Example)**
+### **Filtered Events (Example)**
 B. **Generated Rules (Example)**
 C. **Key Events `.json` (Example)**
 D. **Generated Abstraction (Example)**
