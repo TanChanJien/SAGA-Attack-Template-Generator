@@ -38,11 +38,11 @@ This tool transforms raw logs into a structured template through a multi-stage p
 
 ## Example Output
 Here is a simplified example of what the tool produces at different stages.
-### **Filtered Events (Example)**
-B. **Generated Rules (Example)**
-C. **Key Events `.json` (Example)**
-D. **Generated Abstraction (Example)**
-E. **Final Template `.py` (Example)**
+### **A. Filtered Events (Example)**
+### **B. Generated Rules (Example)**
+### **c. Key Events `.json` (Example)**
+### **D. Generated Abstraction (Example)**
+### **E. Final Template `.py` (Example)**
 
 ## Requirements
 All necessary Python libraries and dependencies are pre-installed in the Google Colab environment. You do not need to install anything on your local machine.
