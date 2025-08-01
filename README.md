@@ -37,12 +37,17 @@ This tool transforms raw logs into a structured template through a multi-stage p
 4. **Python Template Generation**: Finally, the system assembles all the structured information into a complete `saga_template.py` file.
 
 ## Example Output
-Here is a simplified example of what the tool produces at different stages.
-### **A. Filtered Events (Example)**
-### **B. Generated Rules (Example)**
-### **C. Key Events `.json` (Example)**
-### **D. Generated Abstraction (Example)**
-### **E. Final Template `.py` (Example)**
+The generator transforms raw logs into a final template in two main stages. The images below illustrate the key artifacts produced at each stage of the pipeline.
+### Stage 1: AI-Powered Rule Generation and Event Filtering
+First, the system analyzes the raw Procmon log to intelligently filter out noise and isolate the key events that define the attack. It uses an LLM to generate human-readable rules and then applies them to extract a clean, structured JSON file containing only the relevant events.
+
+![RuleGeneration&EventFiltering Diagram](./img/RuleGenerationAndEventFiltering.png)
+
+### Stage 2: Abstraction and Final Template Construction
+Next, the system takes the filtered "Key Events" and uses the LLM again to perform abstraction—generating the Requirements, Hypernyms, and Outcomes. This structured metadata, along with information from a predefined ability list, is used to populate a base template, resulting in the final, ready-to-use saga_template.py file.
+
+![HypernymGeneration&TemplateConstruction Diagram](./img/HypernymGenerationAndTemplateConstruction.png)
+
 
 ## Requirements
 All necessary Python libraries and dependencies are pre-installed in the Google Colab environment. You do not need to install anything on your local machine.
